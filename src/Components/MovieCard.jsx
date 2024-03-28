@@ -11,7 +11,6 @@ const MovieCard = (props)=>{
       <div className="row-img">
         {
             props.movies.map((i,j)=>(
-                // eslint-disable-next-line jsx-a11y/alt-text
                 <img className="row-poster row-posterLarge" key={j} src={i.src} value={i.title} />
             ))
         }
